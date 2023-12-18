@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Standard Crossword
-// @version      1.1
+// @version      1.2
 // @description  Create Link to original crossword
 // @match        https://www.derstandard.at/story/*/kreuzwortraetsel*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=derstandard.at
@@ -14,8 +14,8 @@
     link.setAttribute('style', 'text-align: center; display: block; font-size: x-large;');
     link.innerHTML = 'Zum Rätsel!';
     document.getElementsByTagName("body")[0].insertBefore(link,document.getElementsByTagName("body")[0].firstChild);
-window.addEventListener('load', function() {
+    window.addEventListener('load', function() {
         console.log('now');
-        document.getElementsByClassName('js-embed-output')[0].innerHTML = '<iframe id="crossword-embed" height="700px" width="100%" allowfullscreen="true" style="border: none; width: 100% !important; position: center; size: large;  display: block !important; margin: 0 !important;"name="phoenixen" src="' + url + ' "> </iframe>'
+        document.getElementsByClassName('js-embed-output')[0].innerHTML = '<iframe id="crossword-embed" height="750px" width="100%" allowfullscreen="true" style="border: none; width: 100% !important; position: center; size: large;  display: block !important; margin: 0 !important;"name="phoenixen" src="' + url + ' "> </iframe>'
     }, false);
 })();
