@@ -5,6 +5,7 @@
 // @updateURL    https://github.com/DerDrecksau/scripts/raw/main/dst.js
 // @downloadURL  https://github.com/DerDrecksau/scripts/raw/main/dst.js
 // @match        https://www.derstandard.at/story/*/kreuzwortraetsel*
+// @match        https://www.derstandard.at/story/*/standardraetsel*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=derstandard.at
 // ==/UserScript==
 
