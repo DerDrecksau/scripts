@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Standard Crossword
-// @version      1.3
+// @version      1.3.1
 // @description  Create Link to original crossword
 // @updateURL    https://github.com/DerDrecksau/scripts/raw/main/dst.js
 // @downloadURL  https://github.com/DerDrecksau/scripts/raw/main/dst.js
